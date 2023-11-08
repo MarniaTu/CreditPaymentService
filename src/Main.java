@@ -3,7 +3,7 @@ public class Main {
         CreditPaymentService service = new CreditPaymentService();
 
         System.out.println();
-        int creditForOneYear = service. calculate(1_000_000, 12);
+        int creditForOneYear = service.calculate(1_000_000, 12);
         System.out.println("Ежемесячный платеж составит: " + creditForOneYear + " рубль(ля/лей)");
 
         System.out.println();

@@ -1,5 +1,5 @@
 public class CreditPaymentService {
-    public int calculate (int sum, int periods) {
+    public int calculate(int sum, int periods) {
         double percentMonthly = 9.99 / 100 / 12;
         double ratio;
         double c = Math.pow(1 + percentMonthly, periods);
